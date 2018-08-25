@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>张幸明--瀑布流作品</title>
+<link rel="shortcut icon" href="bitbug_favicon.ico">
+	<style type="text/css">
+		* { margin: 0; padding: 0; list-style: none;}
+		body { background: url(images/background.jpg);}
+		a { text-decoration: none; color: #000;}
+		.box { width: 100%; height: 630px; margin: auto; }
+		.showPpl li { width: 600px; margin: 20px auto; border-radius: 5px;}
+		.showpplUl01 { width: 80px; height: auto; margin: 0 auto; position: fixed; top: 16%; left: 5%;}
+		.showpplUl01 li{ width: 80px; height: 40px; line-height: 40px; background: rgba(255,255,255,0.5); border-radius: 10px; text-align:center; color: #000; float: left; margin: 0 0 30px 0; }
+		.showpplUl01 li a { width: 80px; height: 40px; display: block; }
+		 .pubuliu { width: 170px; margin: 30px auto; color: #FFF;}
+		.a { width: 600px; height: 5502px; border:5px solid rgba(255,255,255,0.5); border-radius: 10px;}
+		.b { width: 582px; height: 4840px; border:5px solid rgba(255,255,255,0.5); border-radius: 10px;}
+		.c { width: 568px; height: 4993px; border:5px solid rgba(255,255,255,0.5); border-radius: 10px;}
+		.d { width: 600px; height: 4840px; border:5px solid rgba(255,255,255,0.5); border-radius: 10px;}
+		.showPpl .g { width: 960px; height: 3139px; border:5px solid rgba(255,255,255,0.5); border-radius: 10px; position: absolute; top: 80px; left: 50%; margin-left: -480px;}
+		.showpplUl01 .f { background: #FF6600; }
+    </style>
+    <script type="text/javascript" src="javascript/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript">
+    	$(function(){
+			$('.showPpl li:first').show().siblings().hide();
+			$('.showpplUl01 li').click(function(e) {
+                $('.showPpl li, .hehe li').eq($(this).index()).stop().fadeIn(800).siblings().fadeOut(800);
+				$(this).addClass('f').siblings().removeClass('f');
+				num = $(this).index();
+            });
+		var timer01 = null;
+		var num = 0;//全局变量是轮播图的灵魂
+		var myTimer = function(){
+			//先控制ol的li
+			num++;
+			if(num > 4){
+				num = 0;
+			}
+		$('.showPpl li').eq(num).stop().fadeIn(800).siblings().fadeOut(800);
+		$('.showpplUl01 li').eq(num).addClass('f').siblings().removeClass('f');				
+		};
+		timer01 = setInterval(myTimer,3000);
+		
+		$('.showPpl li').hover(function(e) {
+        	clearInterval(timer01);    
+        },function(){
+			timer01 = setInterval(myTimer,3000);
+		});
+		})
+    </script>
+</head>
+
+<body>
+<div class="box">      
+  <ul class="showpplUl01">
+            <li class="f">
+                <a href="javascript:;">
+                    缤&nbsp;纷
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    安之若素
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    在一起
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    宜&nbsp;居
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    淘宝装修
+                </a>
+            </li>
+    <li>
+                <a href="index.html">
+                    退&nbsp;出
+                </a>
+            </li>
+        </ul>
+        <div class="pubuliu"><img src="images/pubuliu.png" width="170" height="40"></div>
+     <!--<ul class="hehe">
+    	<li><h1>缤纷手机主题Icon</h1></li>
+    	<li><h1>安之若素手机主题Icon</h1></li>
+    	<li><h1> 在一起 手机App</h1></li>
+    	<li><h1> 宜居 手机App</h1></li>
+    </ul>-->
+    <ul class="showPpl">
+       	<li class="a"><img src="images/PPL-1.jpg" width="600" height="5502"></li>
+       	<li class="b"><img src="images/PPL-2.png" width="600" height="4840"></li>
+       	<li class="c"><img src="images/PPL-3.png" width="600" height="4993"></li>
+       	<li class="d"><img src="images/PPL-4.jpg" width="600" height="4840"></li>
+        <li class="g"><img src="images/PPL-5.jpg" width="960" height="3139"></li>
+    </ul>
+    
+  </div>
+</body>
+</html>

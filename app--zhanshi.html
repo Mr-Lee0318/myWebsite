@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<link rel="shortcut icon" href="bitbug_favicon.ico">
+	<style type="text/css">
+		* { margin: 0; padding: 0; list-style: none}
+		body { background: url(images/background.jpg);}
+		a { text-decoration: none;}
+    	.con { background: url(images/app-bg.png) no-repeat; width: 1200px; height: 800px; margin: 0 auto; margin-top: -70px; position: relative;}
+		.conUl01 { width: 301px; height: 533px; overflow: hidden; position: absolute; top: 132px; left: 450px;  }
+		.conUl01 li { width: 301px; height: 533px; float: left; cursor: pointer;} 
+		.conUl02 { position: absolute; top: 750px; left: 489px; }
+		.conUl02 li { width: 10px; height: 10px; border-radius: 50%; float: left; margin: 0 0 0 10px; border:3px solid rgba(255,255,255,0.5); cursor: pointer;}
+		.current { width: 10px; height: 10px; background: rgba(255,255,255,0.8);}
+		.showappTc { width: 80px; height: 40px; background: rgba(255,255,255,0.5); border-radius: 10px; position: fixed; top: 20%; left: 10%; text-align: center; line-height: 40px; color: #000; }
+		.showappTc:hover { background: #FF6600; color: #FFF;}
+		
+		.con02 { background: url(images/app-bg.png) no-repeat; width: 1200px; height: 800px; margin: 0 auto; margin-top: 150px; position: relative;}
+		.con02Ul01 { width: 301px; height: 533px; overflow: hidden; position: absolute; top: 132px; left: 450px;  }
+		.con02Ul01 li { width: 301px; height: 533px; float: left; cursor: pointer;} 
+		.con02Ul02 { position: absolute; top: 750px; left: 489px; }
+		.con02Ul02 li { width: 10px; height: 10px; border-radius: 50%; float: left; margin: 0 0 0 10px; border:3px solid rgba(255,255,255,0.5); cursor: pointer;}
+    </style>
+    <script type="text/javascript" src="javascript/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript">
+		$(function(){
+		var xmtimer01 = null;
+		var xmnum = 0;//全局变量是轮播图的灵魂
+		$('.conUl02 li').click(function(e) {
+            $(this).addClass('current').siblings().removeClass('current');
+            $('.conUl01 li').eq($(this).index()).stop().fadeIn(800).siblings().fadeOut(800);
+			xmnum = $(this).index();
+        });
+
+		var xmmyTimer = function(){
+			//先控制ol的li
+			xmnum++;
+			if(xmnum > 10){
+				xmnum = 0;
+				}
+		$('.conUl01 li').eq(xmnum).stop().fadeIn(500).siblings().fadeOut(500);
+		$('.conUl02 li').eq(xmnum).addClass('current').siblings().removeClass('current');				
+		};
+		xmtimer01 = setInterval(xmmyTimer,2000);
+		
+		$('.conUl02 li').hover(function(e) {
+        	clearInterval(xmtimer01);    
+        },function(){
+			xmtimer01 = setInterval(xmmyTimer,2000);
+		});
+		$('.conUl01 li').hover(function(e) {
+        	clearInterval(xmtimer01);    
+        },function(){
+			xmtimer01 = setInterval(xmmyTimer,2000);
+		});
+		
+		
+		var xm02timer01 = null;
+		var xm02num = 0;//全局变量是轮播图的灵魂
+		$('.con02Ul02 li').click(function(e) {
+            $(this).addClass('current').siblings().removeClass('current');
+            $('.con02Ul01 li').eq($(this).index()).stop().fadeIn(800).siblings().fadeOut(800);
+			xm02num = $(this).index();
+        });
+
+		var xm02myTimer = function(){
+			//先控制ol的li
+			xm02num++;
+			if(xm02num > 10){
+				xm02num = 0;
+				}
+		$('.con02Ul01 li').eq(xm02num).stop().fadeIn(500).siblings().fadeOut(500);
+		$('.con02Ul02 li').eq(xm02num).addClass('current').siblings().removeClass('current');				
+		};
+		xm02timer01 = setInterval(xm02myTimer,2000);
+		
+		$('.con02Ul02 li').hover(function(e) {
+        	clearInterval(xm02timer01);    
+        },function(){
+			xm02timer01 = setInterval(xm02myTimer,2000);
+		});
+		$('.con02Ul01 li').hover(function(e) {
+        	clearInterval(xm02timer01);    
+        },function(){
+			xm02timer01 = setInterval(xm02myTimer,2000);
+		});				
+			
+		})
+    	
+    </script>
+</head>
+
+<body>
+	<div class="con">
+   	  <a href="index.html" class="showappTc">退出</a>
+    	<ul class="conUl01">
+        	<li><img src="images/app-hong-01.png" width="301" height="533"></li>
+            <li><img src="images/app-hong-02.png" width="301" height="533"></li>
+            <li><img src="images/app-hong-03.png" width="301" height="533"></li>
+            <li><img src="images/app-hong-04.png" width="301" height="533"></li>
+            <li><img src="images/app-lan-01.png" width="301" height="533"></li>
+            <li><img src="images/app-lan-02.png" width="301" height="533"></li>
+            <li><img src="images/app-lan-03.png" width="301" height="533"></li>
+            <li><img src="images/app-lan-04.png" width="301" height="533"></li>       
+        </ul>
+        <ul class="conUl02">
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        </ul>
+    </div>
+    
+    <div class="con02">
+    	<ul class="con02Ul01">
+        	<li><img src="images/app-yj--01.png" width="301" height="533"></li>
+            <li><img src="images/app-yj--02.png" width="301" height="533"></li>
+            <li><img src="images/app-yj--03.png" width="301" height="533"></li>
+            <li><img src="images/app-yj--04.png" width="301" height="533"></li>
+            <li><img src="images/app--zyq--01.png" width="301" height="533"></li>
+            <li><img src="images/app--zyq--02.png" width="301" height="533"></li>
+            <li><img src="images/app--zyq--03.png" width="301" height="533"></li>
+            <li><img src="images/app--zyq--04.png" width="301" height="533"></li>   
+        </ul>
+        <ul class="con02Ul02">
+       	    <li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+      </ul>
+</div>
+</body>
+</html>
