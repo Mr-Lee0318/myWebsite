@@ -6,21 +6,23 @@
 	<link rel="shortcut icon" href="bitbug_favicon.ico">
 	<style type="text/css">
 		* { margin: 0; padding: 0; list-style: none}
-		body { background: url(images/background.jpg);}
+		body { background: url(images/background.jpg) no-repeat;background-size: cover}
 		a { text-decoration: none;}
-    	.con { background: url(images/app-bg.png) no-repeat; width: 1200px; height: 800px; margin: 0 auto; margin-top: -70px; position: relative;}
+    	.con { background: url(images/app-bg.png) no-repeat; width: 1200px; height: 800px; margin: 0 auto; margin-top: -70px; position: relative;     background-position: 72px}
 		.conUl01 { width: 301px; height: 533px; overflow: hidden; position: absolute; top: 132px; left: 450px;  }
-		.conUl01 li { width: 301px; height: 533px; float: left; cursor: pointer;} 
-		.conUl02 { position: absolute; top: 750px; left: 489px; }
+		.conUl01 li { width: 301px; height: 533px; float: left; cursor: pointer;}
+        .conUl01 li img{object-fit: cover}
+        .conUl02 { position: absolute; top: 750px; left: 440px; }
 		.conUl02 li { width: 10px; height: 10px; border-radius: 50%; float: left; margin: 0 0 0 10px; border:3px solid rgba(255,255,255,0.5); cursor: pointer;}
 		.current { width: 10px; height: 10px; background: rgba(255,255,255,0.8);}
 		.showappTc { width: 80px; height: 40px; background: rgba(255,255,255,0.5); border-radius: 10px; position: fixed; top: 20%; left: 10%; text-align: center; line-height: 40px; color: #000; }
 		.showappTc:hover { background: #FF6600; color: #FFF;}
 		
-		.con02 { background: url(images/app-bg.png) no-repeat; width: 1200px; height: 800px; margin: 0 auto; margin-top: 150px; position: relative;}
+		.con02 { background: url(images/app-bg.png) no-repeat; width: 1200px; height: 800px; margin: 0 auto; margin-top: 150px; position: relative;    background-position: 72px}
 		.con02Ul01 { width: 301px; height: 533px; overflow: hidden; position: absolute; top: 132px; left: 450px;  }
 		.con02Ul01 li { width: 301px; height: 533px; float: left; cursor: pointer;} 
-		.con02Ul02 { position: absolute; top: 750px; left: 489px; }
+		.con02Ul01 li img { width: 301px;object-fit: cover}
+		.con02Ul02 { position: absolute; top: 750px; left: 440px; }
 		.con02Ul02 li { width: 10px; height: 10px; border-radius: 50%; float: left; margin: 0 0 0 10px; border:3px solid rgba(255,255,255,0.5); cursor: pointer;}
     </style>
     <script type="text/javascript" src="javascript/jquery-1.7.2.min.js"></script>
@@ -96,16 +98,25 @@
 	<div class="con">
    	  <a href="index.html" class="showappTc">退出</a>
     	<ul class="conUl01">
-        	<li><img src="images/app-hong-01.png" width="301" height="533"></li>
-            <li><img src="images/app-hong-02.png" width="301" height="533"></li>
-            <li><img src="images/app-hong-03.png" width="301" height="533"></li>
-            <li><img src="images/app-hong-04.png" width="301" height="533"></li>
-            <li><img src="images/app-lan-01.png" width="301" height="533"></li>
-            <li><img src="images/app-lan-02.png" width="301" height="533"></li>
-            <li><img src="images/app-lan-03.png" width="301" height="533"></li>
-            <li><img src="images/app-lan-04.png" width="301" height="533"></li>       
+        	<li><img src="images/CCbook/app01_login.jpg" width="301" ></li>
+        	<li><img src="images/CCbook/app01_welcome_01.jpg" width="301" ></li>
+        	<li><img src="images/CCbook/app01_welcome_02.jpg" width="301" ></li>
+        	<li><img src="images/CCbook/app01_welcome_03.jpg" width="301" ></li>
+            <li><img src="images/CCbook/app01_home.jpg" width="301" ></li>
+            <li><img src="images/CCbook/app01_content01.jpg" width="301" ></li>
+            <li><img src="images/CCbook/app01_content02.jpg" width="301" ></li>
+            <li><img src="images/CCbook/app01_content03.jpg" width="301" ></li>
+            <li><img src="images/CCbook/app01_content04.jpg" width="301" ></li>
+            <li><img src="images/CCbook/app01_my.jpg" width="301"></li>
+            <li><img src="images/CCbook/app01_registered.jpg" width="301"></li>
+            <li><img src="images/CCbook/app01_startUp.jpg" width="301"></li>
+
         </ul>
         <ul class="conUl02">
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
         	<li></li>
         	<li></li>
         	<li></li>
@@ -119,17 +130,23 @@
     
     <div class="con02">
     	<ul class="con02Ul01">
-        	<li><img src="images/app-yj--01.png" width="301" height="533"></li>
-            <li><img src="images/app-yj--02.png" width="301" height="533"></li>
-            <li><img src="images/app-yj--03.png" width="301" height="533"></li>
-            <li><img src="images/app-yj--04.png" width="301" height="533"></li>
-            <li><img src="images/app--zyq--01.png" width="301" height="533"></li>
-            <li><img src="images/app--zyq--02.png" width="301" height="533"></li>
-            <li><img src="images/app--zyq--03.png" width="301" height="533"></li>
-            <li><img src="images/app--zyq--04.png" width="301" height="533"></li>   
-        </ul>
+        	<li><img src="images/shike/app_login.jpg" width="301" height="533"></li>
+        	<li><img src="images/shike/app_registered.jpg" width="301" height="533"></li>
+        	<li><img src="images/shike/app_startUp.jpg" width="301" height="533"></li>
+        	<li><img src="images/shike/app_home_01.jpg" width="301" height="533"></li>
+        	<li><img src="images/shike/app_home_02.jpg" width="301" height="533"></li>
+        	<li><img src="images/shike/app_home_03.jpg" width="301" height="533"></li>
+        	<li><img src="images/shike/app_home_04.jpg" width="301" height="533"></li>
+        	<li><img src="images/shike/app_content01.jpg" width="301" height="533"></li>
+        	<li><img src="images/shike/app_content02.jpg" width="301" height="533"></li>
+        	<li><img src="images/shike/app_content03.jpg" width="301" height="533"></li>
+        	<li><img src="images/shike/app_my.jpg" width="301" height="533"></li>
+		</ul>
         <ul class="con02Ul02">
-       	    <li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
+        	<li></li>
         	<li></li>
         	<li></li>
         	<li></li>

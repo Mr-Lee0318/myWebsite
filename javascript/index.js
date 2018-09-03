@@ -112,11 +112,11 @@ $(function(){
 //小米呼吸灯轮播结束
 
 //第二页导航加一个音乐效果
-		$('.nav02 ul li').mouseenter(function(e) {
-			//鼠标滑过第几个li就播放第几个audio
-			$('figure audio').eq($(this).index()).get(0).currentTime = 0;//多次触发的时候 把之前没支执行完的音乐恢复到0的位置
-			$('figure audio').eq($(this).index()).get(0).play();			
-        }); 
+// 		$('.nav02 ul li').mouseenter(function(e) {
+// 			//鼠标滑过第几个li就播放第几个audio
+// 			$('figure audio').eq($(this).index()).get(0).currentTime = 0;//多次触发的时候 把之前没支执行完的音乐恢复到0的位置
+// 			$('figure audio').eq($(this).index()).get(0).play();
+//         });
 //第二页导航加一个音乐效果结束
 
 //第二页第一个无缝滚动开始
@@ -214,9 +214,9 @@ $(function(){
 		$('.showwangyeTc').click(function(e) {
             $('.showWangye').stop().fadeOut();
         });
-		$('.wangyezsUl02 li').click(function(e) {
+		$('.wangyezsUl02 li  ').click(function(e) {
             $(this).addClass('showwyLic').siblings().removeClass('showwyLic');
-            $('.wangyezsUl01 li').eq($(this).index()).stop().fadeIn().siblings().fadeOut();
+            $('.wangyezsUl01 li ').eq($(this).index()).stop().fadeIn().siblings().fadeOut();
 			wynum = $(this).index();
         });
 
@@ -226,17 +226,17 @@ $(function(){
 			if(wynum > 6){
 				wynum = 0;
 				}
-		$('.wangyezsUl01 li').eq(wynum).stop().fadeIn().siblings().fadeOut();
-		$('.wangyezsUl02 li').eq(wynum).addClass('showwyLic').siblings().removeClass('showwyLic');				
+		$('.wangyezsUl01 li ').eq(wynum).stop().fadeIn().siblings().fadeOut();
+		$('.wangyezsUl02 li ').eq(wynum).addClass('showwyLic').siblings().removeClass('showwyLic');
 		};
 		wytimer01 = setInterval(wymyTimer,2000);
 		
-		$('.wangyezsUl01 li').hover(function(e) {
+		$('.wangyezsUl01 li   ').hover(function(e) {
         	clearInterval(wytimer01);    
         },function(){
 			wytimer01 = setInterval(wymyTimer,2000);
 		});
-		$('.wangyezsUl02 li').hover(function(e) {
+		$('.wangyezsUl02 li  ').hover(function(e) {
         	clearInterval(wytimer01);    
         },function(){
 			wytimer01 = setInterval(wymyTimer,2000);
@@ -255,7 +255,7 @@ $(function(){
         });
 		$('.b1').mouseover(function(e) {
 			var mybHref = $(this).children('a').attr('href');
-			var mybTag01 = $('<div class="big01"><img src="images/bannerzhanshi/big--01.png" width="457" height="295"></div>');
+			var mybTag01 = $('<div class="big01"><img src="images/banner/01.jpg" width="1200" ></div>');
 			$(this).siblings().stop().fadeTo(300,0.3);
 			$('.bannerUl01').after(mybTag01);
 			var mybX = e.pageX + 10;
@@ -268,7 +268,7 @@ $(function(){
 		
 			$('.b2').mouseover(function(e) {
 			var mybHref = $(this).children('a').attr('href');
-			var mybTag02 = $('<div class="big02"><img src="images/bannerzhanshi/big--02.png" width="332" height="451"></div>');
+			var mybTag02 = $('<div class="big02"><img src="images/banner/02.jpg" width="1200" ></div>');
 			$(this).siblings().stop().fadeTo(300,0.3);
 			$('.bannerUl01').after(mybTag02);
 			var mybX = e.pageX + 10;
@@ -281,7 +281,7 @@ $(function(){
 		
 			$('.b3').mouseover(function(e) {
 			var mybHref = $(this).children('a').attr('href');
-			var mybTag03 = $('<div class="big03"><img src="images/bannerzhanshi/big--03.png" width="827" height="195"></div>');
+			var mybTag03 = $('<div class="big03"><img src="images/banner/03.jpg" width="1200" ></div>');
 			$(this).siblings().stop().fadeTo(300,0.3);
 			$('.bannerUl01').after(mybTag03);
 			var mybX = e.pageX - 310;
@@ -294,7 +294,7 @@ $(function(){
 		
 			$('.b4').mouseover(function(e) {
 			var mybHref = $(this).children('a').attr('href');
-			var mybTag04 = $('<div class="big04"><img src="images/bannerzhanshi/big--04.png" width="506" height="355"></div>');
+			var mybTag04 = $('<div class="big04"><img src="images/banner/04.jpg" width="1200" ></div>');
 			$(this).siblings().stop().fadeTo(300,0.3);
 			$('.bannerUl01').after(mybTag04);
 			var mybX = e.pageX + 100;
@@ -307,7 +307,7 @@ $(function(){
 		
 			$('.b5').mouseover(function(e) {
 			var mybHref = $(this).children('a').attr('href');
-			var mybTag05 = $('<div class="big05"><img src="images/bannerzhanshi/big-05.png" width="471" height="323"></div>');
+			var mybTag05 = $('<div class="big05"><img src="images/banner/05.jpg" width="1200"></div>');
 			$(this).siblings().stop().fadeTo(300,0.3);
 			$('.bannerUl01').after(mybTag05);
 			var mybX = e.pageX + 100;
@@ -320,7 +320,7 @@ $(function(){
 		
 			$('.b6').mouseover(function(e) {
 			var mybHref = $(this).children('a').attr('href');
-			var mybTag06 = $('<div class="big06"><img src="images/bannerzhanshi/big--06.png" width="828" height="285"></div>');
+			var mybTag06 = $('<div class="big06"><img src="images/banner/06.jpg" width="1200" ></div>');
 			$(this).siblings().stop().fadeTo(300,0.3);
 			$('.bannerUl01').after(mybTag06);
 			var mybX = e.pageX - 810;
@@ -333,7 +333,46 @@ $(function(){
 		
 			$('.b7').mouseover(function(e) {
 			var mybHref = $(this).children('a').attr('href');
-			var mybTag07 = $(' <div class="big07"><img src="images/bannerzhanshi/big--07.png" width="827" height="195"></div>');
+			var mybTag07 = $(' <div class="big07"><img src="images/banner/07.jpg" width="1200" ></div>');
+			$(this).siblings().stop().fadeTo(300,0.3);
+			$('.bannerUl01').after(mybTag07);
+			var mybX = e.pageX + 10;
+			var mybY = e.pageY - 110;//   '+myX+'
+			$('.big07').hide().show(500).css({'left':''+mybX+'px','top':''+mybY+'px'});
+        }).mouseout(function(){
+			$('.big07').remove();
+			$(this).siblings().stop().fadeTo(300,1);
+		});
+			
+			
+			$('.b8').mouseover(function(e) {
+			var mybHref = $(this).children('a').attr('href');
+			var mybTag08 = $(' <div class="big08"><img src="images/banner/08.jpg" width="1200" height="195"></div>');
+			$(this).siblings().stop().fadeTo(300,0.3);
+			$('.bannerUl01').after(mybTag08);
+			var mybX = e.pageX + 10;
+			var mybY = e.pageY - 110;//   '+myX+'
+			$('.big08').hide().show(500).css({'left':''+mybX+'px','top':''+mybY+'px'});
+        }).mouseout(function(){
+			$('.big08').remove();
+			$(this).siblings().stop().fadeTo(300,1);
+		});
+					
+			$('.b9').mouseover(function(e) {
+			var mybHref = $(this).children('a').attr('href');
+			var mybTag07 = $(' <div class="big07"><img src="images/banner/09.jpg" width="1200" ></div>');
+			$(this).siblings().stop().fadeTo(300,0.3);
+			$('.bannerUl01').after(mybTag07);
+			var mybX = e.pageX + 10;
+			var mybY = e.pageY - 110;//   '+myX+'
+			$('.big07').hide().show(500).css({'left':''+mybX+'px','top':''+mybY+'px'});
+        }).mouseout(function(){
+			$('.big07').remove();
+			$(this).siblings().stop().fadeTo(300,1);
+		});					
+			$('.b10').mouseover(function(e) {
+			var mybHref = $(this).children('a').attr('href');
+			var mybTag07 = $(' <div class="big07"><img src="images/banner/10.jpg" width="1200" ></div>');
 			$(this).siblings().stop().fadeTo(300,0.3);
 			$('.bannerUl01').after(mybTag07);
 			var mybX = e.pageX + 10;
@@ -359,51 +398,37 @@ $(function(){
 //瀑布流展示结束
 
 //多媒体用户界面展示开始
-		var xmtimer01 = null;
-		var xmnum = 0;//全局变量是轮播图的灵魂
-		$('.h,.hh').click(function(e) {
-            $('.showXm').stop().fadeIn();
-        });
-		$('.showxmTc').click(function(e) {
-            $('.showXm').stop().fadeOut();
-        });
-		$('.showxmUl02 li').click(function(e) {
-            $(this).addClass('showxmLic').siblings().removeClass('showxmLic');
-            $('.showxmUl01 li').eq($(this).index()).stop().fadeIn(800).siblings().fadeOut(800);
-			xmnum = $(this).index();
-        });
+    $('.h,.hh').click(function(e) {
+        $('.showXm').stop().fadeIn();
+    });
 
-		var xmmyTimer = function(){
-			//先控制ol的li
-			xmnum++;
-			if(xmnum > 10){
-				xmnum = 0;
-				}
-		$('.showxmUl01 li').eq(xmnum).stop().fadeIn(500).siblings().fadeOut(500);
-		$('.showxmUl02 li').eq(xmnum).addClass('showxmLic').siblings().removeClass('showxmLic');				
-		};
-		xmtimer01 = setInterval(xmmyTimer,2000);
-		
-		$('.showxmUl02 li').hover(function(e) {
-        	clearInterval(xmtimer01);    
-        },function(){
-			xmtimer01 = setInterval(xmmyTimer,2000);
-		});
-		$('.showxmUl01 li').hover(function(e) {
-        	clearInterval(xmtimer01);    
-        },function(){
-			xmtimer01 = setInterval(xmmyTimer,2000);
-		});		
+
+    $('.showxmTc').click(function(e) {
+        $('.showXm').stop().fadeOut();
+    });
+
+    $('.showXmUl li').mouseover(function(e) {
+        var myHref = $(this).children('a').attr('href');
+        var myTag01 = $('<div class="showGs"><img src="'+myHref+'" width="503" height="503"></div>');
+        $(this).siblings().stop().fadeTo(300,0.3);
+        $('.showXmUl').after(myTag01);
+        var myX = e.pageX + 10;
+        var myY = e.pageY + 10;//   '+myX+'
+        $('.showGs').hide().show(500).css({'left':''+myX+'px','top':''+myY+'px'});
+    }).mouseout(function(){
+        $('.showGs').remove();
+        $(this).siblings().stop().fadeTo(300,1);
+    })
 //多媒体用户界面展示结束
 //console
 	console.log("                       (0 0)");
 	console.log("   +-------------oOO----(_)----------------+");
 	console.log("   |        	      欢迎光临              |");
-	console.log("   |        	      我是:张幸明           |");
-	console.log("   |   求职意向：web前端开发 (正在找工作)  |");
-	console.log("   |   我的个人网站- www.pxraw.com    |");
-	console.log("   |   电话:14718591020                    |");
-	console.log("   |   邮箱:xmpxraw@163.com               |");
+	console.log("   |        	      我是:陈洁           |");
+	console.log("   |   求职意向：ui设计 (正在找工作)  |");
+	console.log("   |   我的个人网站- https://mr-lee0318.github.io/myWebsite/    |");
+	console.log("   |   电话:18719260318               |");
+	console.log("   |   邮箱:1024544146@qq.com               |");
 	console.log("   +--------------------------oOO----------+");
 	console.log("                      |__|__|");
 	console.log("                       || ||");
