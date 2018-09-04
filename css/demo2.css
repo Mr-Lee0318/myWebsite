@@ -1,5 +1,6 @@
 body {
 	background: url('../images/background.jpg');
+	background-size: cover;
 }
 
 a {
@@ -42,18 +43,22 @@ div.container {
 	margin-top: 10px;
 	border-radius: 5px;
 }
-.container .showviTc { 
+
+.showviTc {
 	width: 80px;
     height: 40px; 
-	background: rgba(255,255,255,0.5); 
-	border-radius: 10px; position: absolute; 										 	
-	bottom: 5%; 
+	background: #fff;
+	border-radius: 10px;
+	position: absolute;
+	bottom: 14%;
 	right: 10%; 
 	text-align: center; 
 	line-height: 40px; 
 	color: #000;
+	z-index: 999;
 }
-.container .showviTc:hover { 
+
+.showviTc:hover {
 	background: #FF6600;
 }
 
