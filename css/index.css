@@ -280,7 +280,7 @@ body {
     height: 40px;
     background: #fff;
     border-radius: 10px;
-    position: relative;
+    position: absolute;
     bottom: 5%;
     right: 10%;
     text-align: center;
@@ -288,6 +288,7 @@ body {
     color: #000;
     z-index: 999;
 }
+
 .showviTc a{
     color: #000;
 }
