@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7424e7c4-d2e1-41f1-b602-e3c618deab79" name="默认" comment="">
+      <change beforePath="$PROJECT_DIR$/app--zhanshi.html" beforeDir="false" afterPath="$PROJECT_DIR$/app--zhanshi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chenjie-Ui.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/app-bg.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-banner02-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-banner02-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-banner02-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-banner02-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-banner02-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-banner02-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-banner02-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-banner02-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-banner02-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-banner02-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-banner02-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-banner02-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-banner02-7.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppl.html" beforeDir="false" afterPath="$PROJECT_DIR$/ppl.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="55" column="57" lean-forward="true" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+            <state relative-caret-position="536">
+              <caret line="98" column="90" selection-start-line="98" selection-start-column="90" selection-end-line="98" selection-end-column="90" />
               <folding>
                 <element signature="n#ul#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -41,11 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app--zhanshi.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="small-banner02-2.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/small-banner02-2.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="small-banner02-1.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/small-banner02-1.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="app--zhanshi.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app--zhanshi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="142" column="49" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="49" />
+            <state relative-caret-position="341">
+              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -53,24 +73,13 @@
       <file leaf-file-name="ppl.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ppl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="141" column="22" lean-forward="true" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
+            <state relative-caret-position="730">
+              <caret line="172" column="88" selection-start-line="172" selection-start-column="88" selection-end-line="172" selection-end-column="88" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#3;n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#4;n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="218" column="32" selection-start-line="218" selection-start-column="32" selection-end-line="218" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -100,25 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PPL-5.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/PPL-5.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="291" column="16" selection-start-line="291" selection-start-column="16" selection-end-line="291" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>张幸明</find>
       <find>g</find>
       <find>750</find>
       <find>object</find>
@@ -146,8 +140,9 @@
       <find>ipresenter-items</find>
       <find>摄影</find>
       <find>jianli</find>
-      <find>con</find>
       <find>showPpl</find>
+      <find>con</find>
+      <find>pg2Up02</find>
     </findStrings>
     <replaceStrings>
       <replace>陈洁</replace>
@@ -164,12 +159,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ppl.html" />
-        <option value="$PROJECT_DIR$/app--zhanshi.html" />
         <option value="$PROJECT_DIR$/javascript/index.js" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/photo.html" />
         <option value="$PROJECT_DIR$/css/demo2.css" />
+        <option value="$PROJECT_DIR$/ppl.html" />
+        <option value="$PROJECT_DIR$/app--zhanshi.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -247,12 +242,12 @@
       <updated>1535880433910</updated>
       <workItem from="1535880965848" duration="7000" />
       <workItem from="1535881305088" duration="568000" />
-      <workItem from="1535882902349" duration="26095000" />
+      <workItem from="1535882902349" duration="27542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26670000" />
+    <option name="totallyTimeSpent" value="28117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="0" width="1921" height="1040" extended-state="0" />
@@ -400,10 +395,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ppl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="172" column="88" selection-start-line="172" selection-start-column="88" selection-end-line="172" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app--zhanshi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/small-banner02-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/small-banner02-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/small-banner02-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/small-banner-01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="55" column="57" lean-forward="true" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+        <state relative-caret-position="536">
+          <caret line="98" column="90" selection-start-line="98" selection-start-column="90" selection-end-line="98" selection-end-column="90" />
           <folding>
             <element signature="n#ul#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -419,27 +445,6 @@
             <element signature="n#ol#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="141" column="22" lean-forward="true" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#4;n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app--zhanshi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="142" column="49" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="49" />
         </state>
       </provider>
     </entry>
